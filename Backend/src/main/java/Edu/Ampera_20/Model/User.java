@@ -2,7 +2,7 @@ package Edu.Ampera_20.Model;
 
 import jakarta.persistence.*;
 @Entity
-@Table(name = "Users")
+@Table(name = "users")
 public class User {
 
     @Id
