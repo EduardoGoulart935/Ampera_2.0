@@ -19,8 +19,6 @@ public class UserService {
         if(user.isPresent() && user.get().getPassword().equals(password)){
             return user.get();
         }
-
         return null;
     }
-
 }

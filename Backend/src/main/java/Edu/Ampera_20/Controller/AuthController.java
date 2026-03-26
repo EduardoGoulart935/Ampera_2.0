@@ -25,12 +25,4 @@ public class AuthController {
 
         return ResponseEntity.status(HttpStatus.UNAUTHORIZED).body("Invalid Email or Password");
     }
-
-    @GetMapping("/teste")
-    public User usuarioTeste() {
-        User u = new User();
-        u.setEmail("teste@email.com");
-        u.setPassword("123");
-        return u;
-    }
 }
