@@ -1,4 +1,4 @@
-import { requireAuth, redirecIfAuthenticated } from "./guard";
+import { requireAuth, redirecIfAuthenticated } from "./Guard.js";
 
 const routes = {
     "/": () => redirecIfAuthenticated(),
